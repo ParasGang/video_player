@@ -21,7 +21,10 @@ dependencies:
   meta: ^1.1.7
   video_player_platform_interface: #^2.3.0
     # workaround for success build checks in PR
-    path: ../video_player_platform_interface
+    git:
+      url: https://github.com/ParasGang/video_player
+      ref: master
+      path: video_player_platform_interface
 
 dev_dependencies:
   flutter_test:
